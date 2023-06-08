@@ -1,0 +1,546 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 10%;
+}
+
+.main-menu {
+  font-size: 15px;
+  position: sticky;
+  right: 30px;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-menu .logo {
+  font-size: 100px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+.main-menu .nav-links {
+  flex-grow: 1;
+}
+
+.main-menu .nav-links ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 50%;
+}
+
+.main-menu .nav-links ul li {
+  margin: 10px;
+  padding-right: 10px;
+}
+
+.main-menu .nav-links ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.main-menu .nav-links ul li a:hover {
+  color: #555;
+}
+
+.container {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 10%;
+  background: no-repeat fixed padding-box content-box #dbd1d0;
+}
+
+.Nom {
+  padding-bottom: 10%;
+  padding-left: 2%;
+}
+
+.Nom h1 {
+  font-size: 50px;
+  padding-bottom: 2%;
+  padding-top: 15%;
+}
+
+.Nom h2 {
+  font-size: 25px;
+  padding-bottom: 2%;
+  padding-left: 0%;
+}
+
+.container-1 {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  background: no-repeat fixed padding-box content-box #dbd1d0;
+}
+
+.titre-a {
+  font-size: 40px;
+  padding: 2%;
+  padding-left: 3%;
+}
+
+.presentation {
+  padding: 2%;
+}
+
+.presentation p {
+  font-size: 20px;
+}
+
+.container-2 {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  background: no-repeat fixed padding-box content-box #dbd1d0;
+}
+
+.edu {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 0.5%;
+  padding-bottom: 2%;
+  background: no-repeat fixed padding-box content-box white;
+}
+
+.edu h3 {
+  font-size: 25px;
+  padding: 4%;
+}
+
+.BUT {
+  padding-left: 0%;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-size: 20px;
+}
+
+.BUT1 {
+  padding-top: 5%;
+  padding-right: 10%;
+  font-size: 20px;
+}
+
+.edu li {
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+#col {
+  column-count: 2;
+}
+
+.Bac {
+  padding-left: 0%;
+  padding-top: 20%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-size: 25px;
+}
+
+.Bac1 {
+  padding-left: 0%;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  font-size: 25px;
+}
+
+#col1 {
+  column-count: 2;
+}
+
+.container-3 {
+  background-color: #dbd1d0;
+  margin-left: 5%;
+  margin-right: 55%;
+  padding-right: 5%;
+  padding-left: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 20%;
+}
+
+.titre-b {
+  font-size: 40px;
+  padding: 2%;
+  padding-left: 1%;
+}
+
+.comp {
+  margin-bottom: 1%;
+}
+
+.comp h3 {
+  font-size: 30px;
+}
+
+.compétences {
+  padding: 2%;
+  margin-bottom: 3%;
+  background-color: white;
+  border-radius: 20%;
+  padding-left: 7%;
+  font-size: 20px;
+}
+
+.compétences li {
+  padding: 1%;
+}
+
+.container-4 {
+  position: absolute;
+  left: 45%;
+  background-color: #dbd1d0;
+  margin-left: 5%;
+  margin-right: 3%;
+  margin-bottom: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  border-radius: 20%;
+}
+
+.pdf-container {
+  width: 600px;
+  height: 600px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10%;
+  background-color: #969696;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.container-rea {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  background: no-repeat fixed padding-box content-box #dbd1d0;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #d47b6c;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.texte {
+  font-size: 20px;
+  margin-left: 45%;
+  position: absolute;
+  right: 20%;
+  top: 4100px;
+  padding: 4%;
+  background-color: white;
+}
+.texte li{
+padding:0.5%;
+}
+.texte-2 li{
+padding:0.5%;
+}
+
+.texte-2 {
+  font-size: 20px;
+  margin-left: 45%;
+  position: absolute;
+  right: 20%;
+  top: 3650px;
+  padding: 4%;
+  background-color: white;
+}
+
+.texte-3 {
+  font-size: 20px;
+  margin-left: 45%;
+  position: absolute;
+  right: 20%;
+  top: 4550px;
+  padding: 4%;
+  background-color: white;
+}
+.texte-3 li {
+padding:0.5%;
+}
+
+.texte-4 {
+  font-size: 20px;
+  margin-left: 45%;
+  position: absolute;
+  right: 20%;
+  top: 5050px;
+  padding: 4%;
+  background-color: white;
+  padding-bottom: 1%;
+}
+
+.texte-4 li {
+padding:0.5%;
+}
+
+.links {
+  padding: 5px;
+}
+
+.img1:hover {
+  background-color: #f0f3e8;
+}
+
+.img2:hover {
+  background-color: #f0f3e8;
+}
+
+.img3:hover {
+  background-color: #f0f3e8;
+}
+
+.img1 {
+  padding: 5px;
+}
+
+.img2 {
+  padding: 5px;
+}
+
+.img3 {
+  padding: 5px;
+}
+
+.Contacts {
+  text-align: center;
+  padding: 30px;
+  padding-top: 30px;
+  font-size: xx-large;
+}
+
+.links {
+  text-align: center;
+}
+
+.container-5 {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: ;
+  background: no-repeat fixed padding-box content-box #dbd1d0;
+  margin-right: 30%;
+  margin-left: 30%;
+  border-radius: 30%;
+}
+
+.titre-b {
+  padding-left: 5%;
+}
+
+.flip-card-back h1 {
+  text-align: left;
+  padding: 5%;
+}
+
+.flip-card-back ul {
+  text-align: left;
+  padding: 5%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #c21527;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .main-menu {
+    font-size: 12px;
+    right: 10px;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+
+  .main-menu .logo {
+    font-size: 80px;
+    margin-right: 5px;
+  }
+
+  .main-menu .nav-links ul {
+    padding-left: 30%;
+  }
+
+  .main-menu .nav-links ul li {
+    margin: 5px;
+    padding-right: 5px;
+  }
+
+  .main-menu .nav-links ul li a {
+    font-size: 12px;
+  }
+
+  .container {
+    padding-top: 5%;
+  }
+
+  .Nom h1 {
+    font-size: 30px;
+    padding-top: 10%;
+  }
+
+  .Nom h2 {
+    font-size: 15px;
+    padding-bottom: 1%;
+  }
+
+  .titre-a {
+    font-size: 30px;
+    padding: 1%;
+    padding-left: 2%;
+  }
+
+  .presentation p {
+    font-size: 15px;
+  }
+
+  .edu h3 {
+    font-size: 20px;
+    padding: 2%;
+  }
+
+  .BUT {
+    padding-left: 0%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    font-size: 15px;
+  }
+
+  .Bac {
+    padding-left: 0%;
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    font-size: 20px;
+  }
+
+  .titre-b {
+    font-size: 30px;
+    padding: 1%;
+    padding-left: 1%;
+  }
+
+  .comp h3 {
+    font-size: 20px;
+  }
+
+  .compétences {
+    font-size: 15px;
+  }
+
+  .pdf-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .flip-card {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2%;
+  }
+
+  .texte {
+    font-size: 15px;
+    margin-left: 40%;
+    position: absolute;
+    right: 20%;
+    top: 2000px;
+  }
+
+  .texte-2 {
+    font-size: 15px;
+    margin-left: 40%;
+    position: absolute;
+    right: 20%;
+    top: 4000   px;
+  }
+
+  .texte-3 {
+    font-size: 15px;
+    margin-left: 40%;
+    position: absolute;
+    right: 20%;
+    top: 2900px;
+  }
+
+  .texte-4 {
+    font-size: 15px;
+    margin-left: 40%;
+    position: absolute;
+    right: 20%;
+    top: 3200px;
+  }
+
+  .Links {
+    font-size: 15px;
+  }
+}
